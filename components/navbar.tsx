@@ -1,21 +1,14 @@
 'use client'
 
-import { CornerDownRight, Download, Moon, Sun } from 'lucide-react'
+import { Moon, Sun } from 'lucide-react'
 import Link from 'next/link'
 import clsx from 'clsx'
 import React from 'react'
 import { usePathname } from 'next/navigation'
+import { navLinks, location } from '@/constants/navlinks'
 
 const Navbar = () => {
   const pathname = usePathname();
-
-  const navLinks = [
-    { href: '/', label: 'FEED', icon: <CornerDownRight className='inline w-3 text-zinc-500' /> },
-    { href: '#about', label: 'ABOUT', icon: <CornerDownRight className='inline w-3 text-zinc-500' /> },
-    { href: '#contact', label: 'CONTACT', icon: <CornerDownRight className='inline w-3 text-zinc-500' /> },
-    { href: 'https://drive.google.com/file/d/1oK-MQmMRE0dM57BeTtRhdj4VtwbPuKbn/view?usp=sharing', label: 'RESUME', icon: <Download className='inline w-3 text-zinc-500 mr-1.5' />, external: true },
-  ]
-  const location = 'LAGUNA, PH'
 
   return (
     <header className='sticky top-0 z-50 p-6 flex justify-between font-sans'>

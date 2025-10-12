@@ -1,13 +1,9 @@
 import { ArrowUp, ArrowUpRight, BotMessageSquare } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
+import { contactLinks } from '@/constants/contact-links'
 
 const Footer = () => {
-  const contactLinks = [
-    { href: "mailto:ezraearlvillanueva@gmail.com", label: "GMAIL" },
-    { href: "https://github.com/VEEpforge", label: "GITHUB", external: true },
-    { href: "https://linkedin.com/in/ezraearlvillanueva", label: "LINKEDIN" },
-  ]
 
   return (
     <footer className='sticky bottom-0 z-50 p-6 flex justify-between font-sans text-sm items-end'>
