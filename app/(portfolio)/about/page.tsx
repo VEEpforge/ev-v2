@@ -1,6 +1,7 @@
 import ExperiencesSection from '@/components/sections/experiences'
 import ProfileSection from '@/components/sections/profile'
 import ServicesSection from '@/components/sections/services'
+import TechStacksSection from '@/components/sections/techstacks'
 import React from 'react'
 
 const AboutPage = () => {
@@ -12,6 +13,7 @@ const AboutPage = () => {
       <ProfileSection />
       <ExperiencesSection />
       <ServicesSection />
+      <TechStacksSection />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { Club, Diamond, GraduationCap, Heart, Landmark, Laptop, LibraryBig } from "lucide-react"
 import { title } from "process"
+import { SiCanva, SiGit, SiGithub, SiGithubcopilot, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiOpenai, SiPrisma, SiPython, SiReact, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si"
 
 export const profileHeader = {
   title: null,
@@ -55,6 +56,69 @@ export const services = [
   {
     icon: <Club size={16} className='inline-block mr-1.5 mb-0.5' />,
     title: 'Miscellaneous',
-    subservices: ['Research', 'Strategy', 'Slide Decks', 'Tutoring', 'Photgraphy'],
+    subservices: ['Research', 'Strategy', 'Slide Decks', 'Tutoring', 'Photography'],
+  }
+]
+
+export const techstacks = [
+  {
+    name: 'Next.js',
+    icon: <SiNextdotjs size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'React',
+    icon: <SiReact size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'TypeScript',
+    icon: <SiTypescript size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: <SiTailwindcss size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'JavaScript',
+    icon: <SiJavascript size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Python',
+    icon: <SiPython size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'GitHub',
+    icon: <SiGithub size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Git',
+    icon: <SiGit size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Node.js',
+    icon: <SiNodedotjs size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'MongoDB',
+    icon: <SiMongodb size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Canva',
+    icon: <SiCanva size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Copilot',
+    icon: <SiGithubcopilot size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Prisma',
+    icon: <SiPrisma size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'Vercel',
+    icon: <SiVercel size={16} className='inline-block mr-1.5 mb-0.5' />
+  },
+  {
+    name: 'ChatGPT',
+    icon: <SiOpenai size={16} className='inline-block mr-1.5 mb-0.5' />
   }
 ]
